@@ -1,0 +1,92 @@
+.mainBox {
+    width: 100vw;
+    height: 100vh;
+}
+
+.head {
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid aqua;
+}
+
+.bottom {
+    height: 90%;
+    display: flex;
+    width: 100%;
+}
+
+.name {
+    margin: 0px 30px;
+}
+
+.sidebar {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 70%;
+    background-color: aqua;
+}
+
+.upper {
+    padding-top: 20px;
+}
+
+.innercontent {
+    width: 85%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 35xpx;
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(160, 160, 160);
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.addActivity {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+.activityBtn {
+    width: 10%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+table {
+    width: 88%;
+    margin: 0px 20px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+}
+
+tr,
+td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+thead {
+    background-color: #adcae1;
+}
+
+th {
+    padding: 8px;
+}
